@@ -19,4 +19,4 @@ var text=svg.selectAll("text")
     .text(function(d){return d;})
     .attr("y",function(d,i){return svgheight-d-2;})
     .attr("x",function(d,i){return barwidth*i})
-    .attr("fill","#A64C38");
+    .attr("fill","#A64C38")
